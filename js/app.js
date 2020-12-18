@@ -190,19 +190,19 @@ function winningMessage() {
        switch (starContainer.childElementCount) {
          case 1:
          timeHeader.insertAdjacentHTML('afterbegin',
-          `<h3>Congratulation<br><i class="fa fa-star"></i></br></h3>`);
+          `<h3>Таны тоглолтын хурд<br><i class="fa fa-star"></i></br></h3>`);
            break;
          case 2:
          timeHeader.insertAdjacentHTML('afterbegin',
-          `<h3>Congratulation<br><i class="fa fa-star"></i>\t<i class="fa fa-star"></i></br></h3>`);
+          `<h3>Таны тоглолтын хурд<br><i class="fa fa-star"></i>\t<i class="fa fa-star"></i></br></h3>`);
            break;
          case 3:
          timeHeader.insertAdjacentHTML('afterbegin',
-          `<h3>Congratulation<br><i class="fa fa-star"></i>\t<i class="fa fa-star"></i>\t<i class="fa fa-star"></i></br></h3>`);
+          `<h3>Таны тоглолтын хурд<br><i class="fa fa-star"></i>\t<i class="fa fa-star"></i>\t<i class="fa fa-star"></i></br></h3>`);
            break;
          case 0:
          timeHeader.insertAdjacentHTML('afterbegin',
-          `<h3>Congratulation</h3>`);
+          `<h3>Таны тоглолтын хурд</h3>`);
            break;
          }
 
